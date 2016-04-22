@@ -1,13 +1,11 @@
 language: erlang
+sudo: false
 install: true
-env:
-  - PATH=".:$PATH"
+env: PATH=".:$PATH"
 before_script:
   - wget https://s3.amazonaws.com/rebar3/rebar3
   - chmod +x rebar3
-  - sudo echo "#!/usr/bin/env bash" > `which rebar`
-script:
-  - make check
+script: make check
 otp_release:
   - 18.2
   - 17.5
