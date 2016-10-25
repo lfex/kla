@@ -1,9 +1,8 @@
 # klä
 
-[![][kla-logo]][kla-logo-large]
+[![Build Status][travis badge]][travis] [![LFE Versions][lfe badge]][lfe] [![Erlang Versions][erlang badge]][versions] [![Tags][github tags badge]][github tags] [![Downloads][hex downloads]][hex package]
 
-[kla-logo]: priv/images/vikings-small.png
-[kla-logo-large]: http://callego.deviantart.com/art/Viking-Clothes-334955145
+[![][kla-logo]][kla-logo-large]
 
 *An LFE Wrapper Library used to Dress Up Erlang Libraries in a Lispy Costume*
 
@@ -52,3 +51,25 @@ And then do the usual:
 ## Usage [&#x219F;](#contents)
 
 Add content to me here!
+
+
+
+<!-- Named page links below: /-->
+
+[kla-logo]: priv/images/vikings-small.png
+[kla-logo-large]: http://callego.deviantart.com/art/Viking-Clothes-334955145
+[github]: https://github.com/lfex/kla
+[gitlab]: https://gitlab.com/lfex/kla
+[travis]: https://travis-ci.org/lfex/kla
+[travis badge]: https://img.shields.io/travis/lfex/kla.svg
+[lfe]: https://github.com/rvirding/lfe
+[lfe badge]: https://img.shields.io/badge/lfe-1.2.0-blue.svg
+[erlang badge]: https://img.shields.io/badge/erlang-R15%20to%2019.1-blue.svg
+[versions]: https://github.com/lfex/kla/blob/master/.travis.yml
+[github tags]: https://github.com/lfex/kla/tags
+[github tags badge]: https://img.shields.io/github/tag/lfex/kla.svg
+[github downloads]: https://img.shields.io/github/downloads/atom/atom/total.svg
+[hex badge]: https://img.shields.io/hexpm/v/kla.svg?maxAge=2592000
+[hex package]: https://hex.pm/packages/kla
+[hex downloads]: https://img.shields.io/hexpm/dt/kla.svg
+
