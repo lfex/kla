@@ -5,7 +5,7 @@
   {description, "An LFE Wrapper Library used to Dress Up Erlang Libraries in a Lispy Costume"},
 
   %% The version of the application
-  {vsn, "0.7.0"},
+  {vsn, "0.8.0-rc1"},
 
   %% All modules used by the application.
   {modules,
@@ -43,5 +43,3 @@
     {"Hex", "https://hex.pm/packages/kla"}
    ]}
  ]}.
- ]
-}.
