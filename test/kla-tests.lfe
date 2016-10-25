@@ -1,6 +1,5 @@
-(defmodule unit-kla-tests
-  (behaviour ltest-unit)
-  (export all))
+(defmodule kla-tests
+  (behaviour ltest-unit))
 
 (include-lib "ltest/include/ltest-macros.lfe")
 
