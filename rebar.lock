@@ -1,4 +1,0 @@
-[{<<"lfe-version">>,
-  {git,"https://github.com/lfe-rebar3/version.git",
-       {ref,"94140845563f96d2a6fb356524d867b906088b20"}},
-  0}].
