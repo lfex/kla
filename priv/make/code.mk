@@ -1,10 +1,11 @@
 compile:
 	rebar3 compile
 
-check: compile
-	-@rebar3 as test compile
-	./priv/scripts/setup_test_env.sh
-	@rebar3 as test eunit
+check:
+	@# XXX The following doesn't work; see the issue:
+	@#     * https://github.com/lfex/kla/issues/6
+	@#rebar3 as test lfe test
+	rebar3 as test eunit
 
 repl:
 	@rebar3 as dev compile
@@ -30,8 +31,19 @@ push-tags:
 
 push-all: push push-tags
 
+build-github: clean
+	rebar3 compile
+
+build-gitlab: clean
+	rebar3 as gitlab compile
+
+build-hexpm: clean
+	rebar3 as hexpm compile
+
+build-all: build-github build-gitlab build-hexpm
+
 publish:
 	rebar3 as hexpm hex publish
 
 show-versions:
-	rebar3 as dev lfe version 
+	rebar3 as dev lfe version
