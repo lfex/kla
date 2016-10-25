@@ -1,16 +1,16 @@
 %% -*- erlang -*-
-{application, 'kla',
+{application, kla,
  [
   %% A quick description of the application.
   {description, "An LFE Wrapper Library used to Dress Up Erlang Libraries in a Lispy Costume"},
 
   %% The version of the application
-  {vsn, "0.8.0-rc1"},
+  {vsn, "0.8.0-rc2"},
 
   %% All modules used by the application.
   {modules,
    [
-    'kla'
+    kla
    ]},
 
   %% All of the registered names the application uses. This can be ignored.
@@ -33,6 +33,7 @@
   %% configuration parameters similar to those in the config file specified
   %% on the command line. can be fetched with gas:get_env
   {env, []},
+
   %% Hex.pm metadata
   {pkg_name, kla},
   {maintainers, ["Duncan McGreggor"]},
