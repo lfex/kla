@@ -8,4 +8,4 @@ ebin/*
 bin/expm
 *.dump
 .rebar
-_build/*
+_*
