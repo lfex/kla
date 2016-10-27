@@ -2,10 +2,7 @@ compile:
 	rebar3 compile
 
 check:
-	@# XXX The following doesn't work; see the issue:
-	@#     * https://github.com/lfex/kla/issues/6
-	@#rebar3 as test lfe test
-	rebar3 as test eunit
+	rebar3 as test lfe test
 
 repl:
 	@rebar3 as dev compile
