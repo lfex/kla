@@ -36,7 +36,7 @@ Just add it to your ``rebar.config`` deps:
   {deps, [
     ...
     {kla, ".*",
-      {git, "git@github.com:lfex/kla.git", {tag, "0.5.0"}}}
+      {git, "git@github.com:lfex/kla.git", {branch, "master"}}}
       ]}.
 ```
 
@@ -63,8 +63,8 @@ Add content to me here!
 [travis]: https://travis-ci.org/lfex/kla
 [travis badge]: https://img.shields.io/travis/lfex/kla.svg
 [lfe]: https://github.com/rvirding/lfe
-[lfe badge]: https://img.shields.io/badge/lfe-1.2.0-blue.svg
-[erlang badge]: https://img.shields.io/badge/erlang-R15%20to%2019.1-blue.svg
+[lfe badge]: https://img.shields.io/badge/lfe-1.3.0-blue.svg
+[erlang badge]: https://img.shields.io/badge/erlang-17.5%20to%2022.0-blue.svg
 [versions]: https://github.com/lfex/kla/blob/master/.travis.yml
 [github tags]: https://github.com/lfex/kla/tags
 [github tags badge]: https://img.shields.io/github/tag/lfex/kla.svg
