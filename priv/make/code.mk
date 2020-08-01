@@ -6,7 +6,6 @@ check:
 
 repl:
 	@rebar3 as dev compile
-	@$(LFE) -pa `rebar3 as dev path -s " -pa "`
 
 shell:
 	@rebar3 shell
